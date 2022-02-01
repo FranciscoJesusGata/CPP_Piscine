@@ -6,7 +6,7 @@
 /*   By: fgata-va <fgata-va@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 11:23:29 by fgata-va          #+#    #+#             */
-/*   Updated: 2022/02/01 12:32:51 by fgata-va         ###   ########.fr       */
+/*   Updated: 2022/02/01 12:46:13 by fgata-va         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	PhoneBook::menu(void) {
 			this->_search();
 		else if (input == "EXIT")
 			exit = true;
-		else
+		else if (input.size() > 0)
 			std::cout << input << " is not a command" << std::endl;
 	}
 }
