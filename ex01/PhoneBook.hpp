@@ -6,16 +6,14 @@
 /*   By: fgata-va <fgata-va@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/27 21:33:53 by fgata-va          #+#    #+#             */
-/*   Updated: 2022/01/31 17:30:04 by fgata-va         ###   ########.fr       */
+/*   Updated: 2022/02/01 12:33:41 by fgata-va         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_HPP
 # define PHONEBOOK_HPP
 # include "Contact.hpp"
-# include <iostream>
-# include <iomanip>
-# include <sstream>
+
 
 class PhoneBook {
 

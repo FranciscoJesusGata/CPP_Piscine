@@ -6,11 +6,14 @@
 /*   By: fgata-va <fgata-va@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 11:23:29 by fgata-va          #+#    #+#             */
-/*   Updated: 2022/01/31 20:32:29 by fgata-va         ###   ########.fr       */
+/*   Updated: 2022/02/01 12:32:51 by fgata-va         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
+#include <iostream>
+#include <iomanip>
+#include <sstream>
 
 PhoneBook::PhoneBook(void) {
 
